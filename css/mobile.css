@@ -25,7 +25,7 @@
     /* section2 */
     .section2 {
         padding: 48px 30px;
-    
+
     }
 
     h3 {
@@ -54,7 +54,7 @@
 
         font-size: 36px;
         line-height: 42px;
-    
+
     }
 
     .article_div {
@@ -77,4 +77,22 @@
         height: 220px;
 
     }
+
+    /* footer */
+    footer img {
+        display: none;
+    }
+
+    .fa-envelope {
+        font-size: 40px;
+    }
+
+    .fa-facebook-f {
+        font-size: 40px;
+    }
+
+    .fa-instagram {
+        font-size: 40px;
+    }
+
 }

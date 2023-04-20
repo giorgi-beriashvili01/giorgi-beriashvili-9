@@ -126,6 +126,11 @@ h4 {
 
 }
 
+.article_img {
+    max-width: 45%;
+    width: 45%;
+}
+
 .article_text {
 
     color: #FFFFFF;
@@ -136,4 +141,35 @@ h4 {
     width: 45%;
     padding: 64px 109px 130px 109px;
     background-color: #8E8B8B;
+}
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    margin-inline: auto;
+    background-color: #2A2626;
+    padding: 32px 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.fa-envelope {
+    color: #FFFFFF;
+    font-size: 70px;
+}
+
+.fa-facebook-f {
+    margin: 0 49px;
+    color: #FFFFFF;
+    font-size: 70px;
+}
+
+.fa-instagram {
+    color: #FFFFFF;
+    font-size: 70px;
 }

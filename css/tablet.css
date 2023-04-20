@@ -47,7 +47,7 @@
 
         font-size: 36px;
         line-height: 42px;
-    
+
     }
 
     .article_div {
@@ -70,4 +70,23 @@
         height: 220px;
 
     }
+
+    /* footer */
+
+    footer img {
+        display: none;
+    }
+
+    .fa-envelope {
+        font-size: 50px;
+    }
+
+    .fa-facebook-f {
+        font-size: 50px;
+    }
+
+    .fa-instagram {
+        font-size: 50px;
+    }
+
 }
