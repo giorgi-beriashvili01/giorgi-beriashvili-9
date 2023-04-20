@@ -94,3 +94,46 @@ h3 {
     display: flex;
     justify-content: space-between;
 }
+
+.card:hover {
+    box-shadow: 0 20px 10px black;
+}
+
+/* article */
+
+article {
+    width: 100%;
+    margin-inline: auto;
+    background-color: #0B0A0A;
+    padding: 96px 125px;
+
+}
+
+
+h4 {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: center;
+    margin-bottom: 42px;
+
+}
+
+.article_div {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.article_text {
+
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: justify;
+    width: 45%;
+    padding: 64px 109px 130px 109px;
+    background-color: #8E8B8B;
+}
