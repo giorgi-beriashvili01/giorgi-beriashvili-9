@@ -21,4 +21,21 @@
         padding: 96px 30px;
         line-height: 28px;
     }
+
+    /* section2 */
+    .section2{
+        padding: 48px 30px;
+        margin-bottom: 32px;
+    }
+    h3 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
