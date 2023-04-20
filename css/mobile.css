@@ -1,0 +1,24 @@
+@media (max-width: 480px) {
+    .header_section {
+        background-size: 200% 100%;
+        background-position: center;
+    }
+
+    header {
+        padding: 32px 30px;
+    }
+
+    ul li a {
+        display: none;
+    }
+
+    .burger_icon {
+        display: block;
+    }
+
+    .section_text {
+        font-size: 24px;
+        padding: 96px 30px;
+        line-height: 28px;
+    }
+}
