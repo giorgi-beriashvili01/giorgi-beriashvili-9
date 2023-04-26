@@ -9,25 +9,24 @@
 .header_section {
     width: 100%;
     height: 700px;
+    padding: 32px 0 96px 0;
     background-image: url("../images/img1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
-
-
-
 }
 
 header {
-
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px 125px;
+
 }
-
-
 
 ul {
     display: flex;
@@ -39,32 +38,20 @@ li a {
     font-size: 32px;
     font-weight: 700;
     line-height: 37px;
-    text-align: left;
-    padding: 10px;
-    border-radius: 20px;
-    transition-property: all;
-    transition-duration: 2s;
-    transition-timing-function: linear;
-
 }
 
-li a:hover {
-    background-color: red;
-}
 
 .burger_icon {
     display: none;
 }
 
 .section_text {
+    width: 80%;
     color: #FFFFFF;
     font-size: 40px;
     font-weight: 700;
     line-height: 46px;
     text-align: center;
-    width: 100%;
-    padding: 96px 197px;
-
 
 }
 
@@ -72,41 +59,52 @@ li a:hover {
 
 .section2 {
     width: 100%;
-    margin-inline: auto;
     background-color: #2A2626;
-    padding: 96px 125px;
-    display: flex;
-    flex-direction: column;
-
+    padding: 96px 0;
 }
 
 h3 {
-    margin-bottom: 42px;
     font-size: 48px;
     font-weight: 400;
     line-height: 56px;
     color: #FFFFFF;
     text-align: center;
-
+    margin-bottom: 42px;
 }
 
 .cards {
+    width: 90%;
+    margin-inline: auto;
     display: flex;
     justify-content: space-between;
+
 }
+
+.card {
+    width: 30%;
+    height: 320px;
+
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+}
+
 
 .card:hover {
     box-shadow: 0 20px 10px black;
 }
 
+
+
+
 /* article */
 
 article {
     width: 100%;
-    margin-inline: auto;
     background-color: #0B0A0A;
-    padding: 96px 125px;
-
+    padding: 96px 0;
 }
 
 
@@ -117,28 +115,29 @@ h4 {
     line-height: 56px;
     text-align: center;
     margin-bottom: 42px;
-
 }
 
 .article_div {
+    width: 90%;
+    margin-inline: auto;
     display: flex;
     justify-content: space-between;
 
 }
 
 .article_img {
-    max-width: 45%;
     width: 45%;
+    height: 320px;
 }
 
 .article_text {
-
+    width: 45%;
+    height: 320px;
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
     text-align: justify;
-    width: 45%;
     padding: 64px 109px 130px 109px;
     background-color: #8E8B8B;
 }
@@ -148,28 +147,18 @@ h4 {
 
 footer {
     width: 100%;
-    margin-inline: auto;
     background-color: #2A2626;
-    padding: 32px 125px;
+    padding: 32px 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
-
-.fa-envelope {
+.icone {
     color: #FFFFFF;
-    font-size: 70px;
+    font-size: 60px;
 }
 
 .fa-facebook-f {
-    margin: 0 49px;
-    color: #FFFFFF;
-    font-size: 70px;
-}
-
-.fa-instagram {
-    color: #FFFFFF;
-    font-size: 70px;
+    margin-inline: 49px;
 }

@@ -1,14 +1,46 @@
-@media (max-width: 1100px) {
-    .header_section {
-        background-size: 150% 100%;
-        background-position: center;
+@media (max-width: 1060px) {
+    .article_text {
+        padding: 64px 60px 116px 60px;
+    }
+}
+
+
+@media (max-width: 990px) {
+    .none {
+        display: none;
     }
 
-    header {
-        padding: 32px 30px;
+    .card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 880px) {
+    li a {
+        font-size: 22px;
     }
 
-    ul li a {
+    .section_text {
+        width: 90%;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    .article_div {
+        width: 80%;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .article_img,
+    .article_text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 720px) {
+    nav {
         display: none;
     }
 
@@ -16,77 +48,42 @@
         display: block;
     }
 
-    .section_text {
-        font-size: 28px;
-        padding: 96px 30px;
-        line-height: 32px;
-    }
-
-    /* section2 */
-    h3 {
-        font-size: 42px;
+    .logo img {
+        width: 49px;
+        height: 76px;
     }
 
     .cards {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
+        width: 70%;
+        flex-direction: column;
+        gap: 24px;
     }
 
     .card {
-        padding: 20px;
+        width: 100%;
     }
 
-    /* article */
-    article {
-        padding: 48px 30px;
+    .none {
+        display: block;
     }
 
-    h4 {
+}
 
-        font-size: 36px;
-        line-height: 42px;
-
+@media (max-width: 560px) {
+    .header_section {
+        height: 696px;
+        padding: 32px 0 46px 0;
     }
 
-    .article_div {
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
+    .section_text {
+        font-size: 24px;
     }
 
-    .article_img {
-        width: 420px;
-        height: 220px;
-        margin-bottom: 30px;
+    footer {
+        justify-content: center;
     }
 
-    .article_text {
-        font-size: 16px;
-        line-height: 19px;
-        padding: 64px 60px 110px 60px;
-        width: 420px;
-        height: 220px;
-
-    }
-
-    /* footer */
-
-    footer img {
+    .footer_logo {
         display: none;
     }
-
-    .fa-envelope {
-        font-size: 50px;
-    }
-
-    .fa-facebook-f {
-        font-size: 50px;
-    }
-
-    .fa-instagram {
-        font-size: 50px;
-    }
-
 }
